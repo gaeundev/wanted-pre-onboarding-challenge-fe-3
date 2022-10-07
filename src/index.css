@@ -8,7 +8,12 @@ body {
     height: 100vh;
 }
 
-button {
+h1 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
     border: none;
     border-radius: 3px;
     background-color: #000;
@@ -17,6 +22,6 @@ button {
     cursor: pointer;
 }
 
-button:active {
+a:active {
     background-color: #202020;
 }
