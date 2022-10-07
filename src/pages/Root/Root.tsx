@@ -1,8 +1,18 @@
+import useRouter from '../../customHook/useRouter';
+
 const Root = () => {
+    const { push } = useRouter();
+
     return (
         <>
             <h1>root</h1>
-            <button>about</button>
+            <button
+                onClick={() => {
+                    push('/about');
+                }}
+            >
+                about
+            </button>
         </>
     );
 };

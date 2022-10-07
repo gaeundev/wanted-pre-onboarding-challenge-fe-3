@@ -43,3 +43,11 @@ $ cd pre-onboarding-challenge-fe-3
 $ npm i
 $ npm run dev
 ```
+
+## 참고자료
+
+-   https://developer.mozilla.org/en-US/docs/Web/API/Window/popstate_event
+-   https://developer.mozilla.org/en-US/docs/Web/API/Location/pathname
+-   https://developer.mozilla.org/en-US/docs/Web/API/History_API
+
+-   https://ko.reactjs.org/docs/hooks-custom.html
